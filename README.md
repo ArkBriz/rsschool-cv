@@ -1,1 +1,1 @@
-# rsschool-cv
+https://arkbriz.github.io/rsschool-cv/cv

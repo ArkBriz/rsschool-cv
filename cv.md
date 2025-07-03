@@ -6,6 +6,7 @@
 **Email:** adbrizz@gmail.com\
 **Discord:** arkbriz\
 [**GitHub**](https://github.com/ArkBriz)
+
 *****************************************
 
 ### Some words about myself
@@ -37,6 +38,7 @@ I enjoy learning new things and figuring out how the world works.
 * CMS (Wordpress)
 * Git
 * Figma
+
 **********************************************
 
 ### Code example:
