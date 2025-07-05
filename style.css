@@ -59,7 +59,7 @@ html {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  color: #30353d;
+  color:#5c6168;
 
   background-color: #ffffff;
   box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.1);
@@ -92,7 +92,7 @@ html {
 .nav-link {
   display: block;
   padding: 30px 10px;
-  font-size: 20px;
+  font-size: 25px;
   color:inherit
 }
 
@@ -142,4 +142,22 @@ html {
 
 .section--dark {
   background-color: #d5dae4;
+}
+
+.main-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.section-profile-text {
+  font-size: 28px;
+}
+
+.section-address {
+  padding-left: 35px;
+  font-size: 25px;
+  background-image: url("../assets/svg/location.svg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
 }
