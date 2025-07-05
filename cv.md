@@ -75,4 +75,4 @@ function travelDistance(avgSpeed, travelTime) {
 
 ### English
 **Intermediate/Upper-Intermediate** (according to the 50m online test at [EF SET](https://www.efset.org/ef-set-50/))\
-![](img/ef_set_cert.jpg)
+![](assets/img/ef_set_cert.jpg)
