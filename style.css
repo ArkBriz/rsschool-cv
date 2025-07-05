@@ -43,6 +43,7 @@ img {
 a {
   text-decoration: none;
   color: #7979df;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -51,6 +52,7 @@ a:hover {
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .page {
@@ -64,10 +66,15 @@ html {
   font-size: 24px;
   line-height: 1.4;
   font-weight: 400;
-  color:#5c6168;
+  color: #5c6168;
 
   background-color: #ffffff;
   box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.1);
+}
+
+.visually-hidden {
+  position: absolute;
+  transform: scale(0);
 }
 
 /* Header */
@@ -95,14 +102,33 @@ html {
 }
 
 .nav-link {
+  position: relative;
   display: block;
   padding: 30px 10px;
   font-size: 25px;
-  color:inherit
+  color: inherit;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 22px;
+  width: 85%;
+  height: 1px;
+  margin: auto;
+  background-color: rgba(48, 53, 61, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .nav-link:hover {
   color: rgba(48, 53, 61, 0.5);
+}
+
+.nav-link:hover::before {
+  opacity: 1;
 }
 
 /* Footer */
@@ -120,12 +146,18 @@ html {
 }
 
 .copyright {
-  margin-left: 10px;
-  color: inherit;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+
+  mask: url("../assets/svg/github.svg") no-repeat center;
+  mask-size: 40px;
+  background-color: #5c6168;
 }
 
 .copyright:hover {
-  color: rgba(48, 53, 61, 0.5);
+  background-color: rgba(48, 53, 61, 0.5);
 }
 
 .logo {
@@ -165,8 +197,9 @@ html {
 .main-title {
   margin: 0;
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 900;
+  letter-spacing: 2px;
 }
 
 .section-title {
@@ -174,6 +207,7 @@ html {
   margin-bottom: 30px;
   font-size: 32px;
   font-weight: 700;
+  letter-spacing: 3px;
 }
 
 .section-text {
@@ -219,6 +253,7 @@ html {
 
 .contacts-section .section-title {
   margin-bottom: 0;
+  letter-spacing: 1px;
 }
 
 .contacts-section .section-list {
