@@ -43,3 +43,28 @@ img {
 a {
   text-decoration: none;
 }
+
+html {
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  min-height: 100%;
+  margin: 0;
+
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #30353d;
+
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.1);
+}
+
+.main {
+  flex-grow: 1;
+}
