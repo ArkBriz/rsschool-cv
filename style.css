@@ -56,7 +56,7 @@ html {
   margin: 0 auto;
 
   font-family: "Inter", "Arial", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
   font-weight: 400;
   color:#5c6168;
@@ -157,7 +157,7 @@ html {
 
 .section-title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 30px;
   font-weight: 700;
 }
@@ -246,3 +246,26 @@ html {
   color: rgba(48, 53, 61, 0.5);
 }
 
+/* Skills */
+
+.section-list > li > ul {
+  margin-top: 10px;
+}
+
+.section-item--bullet {
+  padding-left: 30px;
+  background-image: url("../assets/svg/arrow.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+}
+
+.section-item--js-bullet {
+  margin-left: 10px;
+  padding-left: 21px;
+  background-image: url("../assets/svg/double-arrow.svg");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+  font-size: 22px;
+}
