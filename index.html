@@ -95,11 +95,49 @@
     </section>
 
     <section class="section" id="code">
-      <h2 class="section-title"></h2>
+      <h2 class="section-title">Code example</h2>
+      <p class="section-text">Write a function that calculates the flight distance of a ship based on the input speed and flight time. The speed is provided in knots, and the time in minutes. The output should be the distance in kilometers.</p>
+      <pre class="code">
+        <code>function travelDistance(avgSpeed, travelTime) {
+          const KMH_PER_KNOT = 1.852;
+          const travelHours = travelTime / 60;
+          const travelSpeed = avgSpeed * KMH_PER_KNOT;
+          const travelKms   = travelSpeed * travelHours;
+
+          return travelKms;
+        }</code>
+      </pre>
     </section>
 
     <section class="section" id="projects">
-      <h2 class="section-title"></h2>
+      <h2 class="section-title">My projects</h2>
+      <ul class="section-list">
+        <li class="section-item">
+          <a href="https://arkbriz.github.io/Gllacy/">Gllacy</a>
+          <span>(Static Layout, Flexbox, Grid Layout, Positioning, Forms, Popups, Sliders, Validation) -</span>
+          <a href="https://github.com/ArkBriz/Gllacy">GitHub</a>
+        </li>
+        <li class="section-item">
+          <a href="https://arkbriz.github.io/Cat-Energy/">Cat Energy</a>
+          <span>(Responsive layout, Sass, BEM, Gulp) -</span>
+          <a href="https://github.com/ArkBriz/Cat-Energy">GitHub</a>
+        </li>
+        <li class="section-item">
+          <a href="https://arkbriz.github.io/berry/">Berry</a>
+          <span>(Responsive layout, Sass, BEM, Gulp) -</span>
+          <a href="https://github.com/ArkBriz/berry">GitHub</a>
+        </li>
+        <li class="section-item">
+          <a href="https://arkbriz.github.io/Kekstagram/">Kekstagram</a>
+          <span>(JS: DOM API, Events, Sorting, Fetch API, Pristine) -</span>
+          <a href="https://github.com/ArkBriz/Kekstagram">GitHub</a>
+        </li>
+        <li class="section-item">
+          <a href="https://arkbriz.github.io/cryptostars/">Cryptostars</a>
+          <span>(JS: Modules, Fetch, JSON, Pristine, Leaflet) -</span>
+          <a href="https://github.com/ArkBriz/cryptostars">GitHub</a>
+        </li>
+      </ul>
     </section>
 
     <section class="section" id="education">
