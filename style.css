@@ -53,7 +53,7 @@ html {
   flex-direction: column;
   max-width: 1440px;
   min-height: 100%;
-  margin: 0;
+  margin: 0 auto;
 
   font-family: "Inter", "Arial", sans-serif;
   font-size: 18px;
@@ -68,6 +68,8 @@ html {
 /* Header */
 .header {
   background-color: #d5dae4;
+  box-shadow: 0 3px 6px -2px #9fa1a5;
+  z-index: 1;
 }
 
 .nav {
@@ -102,6 +104,7 @@ html {
 
 .footer {
   background-color: #d5dae4;
+  box-shadow: 0 -3px 6px -2px #9fa1a5;
 }
 
 .footer-container {
@@ -127,4 +130,16 @@ html {
   flex-wrap: wrap;
 }
 
+.section:nth-child(odd) {
+  width: 35%;
+  padding: 40px 40px 40px 80px;
+}
 
+.section:nth-child(even) {
+  width: 65%;
+  padding: 40px 80px 40px 40px;
+}
+
+.section--dark {
+  background-color: #d5dae4;
+}
