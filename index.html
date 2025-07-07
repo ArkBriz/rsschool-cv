@@ -4,10 +4,188 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV project</title>
-
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="CV project">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="page">
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#code">Code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#english">English</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="main">
+    <section class="section section--dark" id="profile">
+      <h1 class="main-title">Hi! I’m Arkady Briz!</h1>
+      <p class="section-text profile-text">And I’m going to become a frontend developer.</p>
+      <address class="section-address">Cosmopolitan</address>
+    </section>
+
+    <section class="section contacts-section" id="contacts">
+      <h2 class="section-title">You can reach me on:</h2>
+      <img class="contacts-photo" src="assets/img/profile-photo.jpg" width="300" height="300" alt="Arkady Briz's photo.">
+      <ul class="section-list">
+        <li class="section-item">
+          <a class="section-link section-link--phone" href="tel:+79273133380">+7&nbsp;927&nbsp;313&nbsp;33&nbsp;80</a>
+        </li>
+        <li class="section-item">
+          <a class="section-link section-link--email" href="mailto:addbrizz@gmail.com">addbrizz@gmail.com</a>
+        </li>
+        <li class="section-item">
+          <a class="section-link section-link--discord" href="https://discordapp.com/users/1099909029599379489">Discord</a>
+        </li>
+        <li class="section-item">
+          <a class="section-link section-link--github" href="https://github.com/ArkBriz">GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="skills">
+      <h2 class="section-title">My skills</h2>
+      <ul class="section-list">
+        <li class="section-item section-item--bullet">HTML</li>
+        <li class="section-item section-item--bullet">CSS, SCSS, BEM</li>
+        <li class="section-item section-item--bullet">JavaScript
+          <ul class="section-list">
+            <li class="section-item section-item--js-bullet">Basics</li>
+            <li class="section-item section-item--js-bullet">DOM API, Events</li>
+            <li class="section-item section-item--js-bullet">AJAX (fetch)</li>
+            <li class="section-item section-item--js-bullet">Promise, async/await</li>
+          </ul>
+        </li>
+        <li class="section-item section-item--bullet">React (Markup and styling of React components with JSX and styled-components)</li>
+        <li class="section-item section-item--bullet">Gulp, NPM, Chrome DevTools</li>
+        <li class="section-item section-item--bullet">CMS (Wordpress)</li>
+        <li class="section-item section-item--bullet">Git, Github</li>
+        <li class="section-item section-item--bullet">Figma</li>
+      </ul>
+    </section>
+
+    <section class="section section-about section--dark" id="about">
+      <h2 class="section-title">Some words about myself</h2>
+      <p class="section-text"><b>How did I get into frontend development?</b><br> I graduated from a high school with a focus on physics and math, and then went on to study radio electronics at university, earning an engineering degree. But I never ended up working in that field. Instead, I spent the next five years in a management position at an organization. After that, I ran my own business for about four years, doing home and apartment renovation and finishing work.</p>
+
+      <p class="section-text">I’ve been interested in computers since my childhood, but only after I turned 35 I finally decided to give programming a try. When the pandemic hit, I started looking for ways to work remotely. I learned how to build websites using no-code platforms — but that was more about design than development. I created a few websites, and later got a remote job as a mentor at an online education company. Alongside my main responsibilities, I sometimes edited HTML code for the learning platform. That’s when my childhood dream came back to life.</p>
+
+      <p class="section-text">Three years as a mentor gave me solid experience with remote work and collaborating with teams and people online. That’s when I made the decision to become a frontend developer. I set a goal to learn programming no matter what — and here I am. What helps me on this path is my strong interest in the field, persistence, attention to detail, focus on goals and a healthy dose of perfectionism.</p>
+
+      <p class="section-text">My motivation also comes from a few personal goals: working remotely and being location-independent, keeping my mind sharp, connecting with interesting and open-minded people, finally mastering English — and, well, let’s be honest, the salaries in tech aren’t bad either.<br><br>
+      I enjoy learning new things and figuring out how the world works.</p>
+    </section>
+
+    <section class="section section--dark" id="education">
+      <h2 class="section-title">Education</h2>
+      <ul class="section-list">
+        <li class="section-item section-item--bullet">Secondary education</li>
+        <li class="section-item section-item--bullet">Higher engineering education in Radio Engineering</li>
+        <li class="section-item section-item--bullet">Self-directed Frontend Developer Course at HTML Academy <i>(in progress, almost finished)</i></li>
+      </ul>
+    </section>
+
+    <section class="section" id="projects">
+      <h2 class="section-title">My projects</h2>
+      <ul class="section-list">
+        <li class="section-item section-item--bullet">
+          <a class="project-link" href="https://arkbriz.github.io/Gllacy/" target="_blank">Gllacy</a>
+          <span class="project-stack">(Static Layout, Flexbox, Grid Layout, Positioning, Forms, Popups, Sliders, Validation) -</span>
+          <a href="https://github.com/ArkBriz/Gllacy" target="_blank">GitHub</a>
+        </li>
+        <li class="section-item section-item--bullet">
+          <a class="project-link" href="https://arkbriz.github.io/Cat-Energy/" target="_blank">Cat Energy</a>
+          <span class="project-stack">(Responsive layout, Sass, BEM, Gulp) -</span>
+          <a href="https://github.com/ArkBriz/Cat-Energy" target="_blank">GitHub</a>
+        </li>
+        <li class="section-item section-item--bullet">
+          <a class="project-link" href="https://arkbriz.github.io/berry/" target="_blank">Berry</a>
+          <span class="project-stack">(Responsive layout, Sass, BEM, Gulp) -</span>
+          <a href="https://github.com/ArkBriz/berry" target="_blank">GitHub</a>
+        </li>
+        <li class="section-item section-item--bullet">
+          <a class="project-link" href="https://arkbriz.github.io/Kekstagram/" target="_blank">Kekstagram</a>
+          <span class="project-stack">(JS: DOM API, Events, Sorting, Fetch, Pristine) -</span>
+          <a href="https://github.com/ArkBriz/Kekstagram" target="_blank">GitHub</a>
+        </li>
+        <li class="section-item section-item--bullet">
+          <a class="project-link" href="https://arkbriz.github.io/cryptostars/" target="_blank">Cryptostars</a>
+          <span class="project-stack">(JS: Modules, Fetch, JSON, Pristine, Leaflet) -</span>
+          <a href="https://github.com/ArkBriz/cryptostars" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="english">
+      <h2 class="section-title">English level</h2>
+      <p class="section-text">
+        <b class="level">Upper-Intermediate</b><br>
+        <i>(according to the test at <a href="https://www.efset.org/ef-set-50/" target="_blank">EF SET</a>)</i>
+      </p>
+      <a href="https://cert.efset.org/HhNviw" target="_blank">
+        <img src="assets/img/ef_set_cert.jpg" width="400" height="512" alt="Arkady Briz's Upper-Intermediate level confirmation certificate.">
+      </a>
+    </section>
+
+    <section class="section  section--dark" id="code">
+      <h2 class="section-title">Code example</h2>
+      <p class="section-text">Task: sort the array [4, 2, 1, 3] in ascending order</p>
+      <pre class="code">
+        <code>
+let array = [4, 2, 1, 3];
+
+for (let i = 0; i &lt;= array.length - 2; i++) {
+  let minValue = array[i];
+
+  for (let j = i + 1; j &lt;= array.length - 1; j++) {
+    if (array[j] &lt; minValue) {
+      minValue = array[j];
+      let swap = array[j];
+      array[i] = minValue;
+      array[j] = swap;
+    }
+  }
+}</code>
+      </pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <span>&copy;
+        <time datetime="2025">2025</time>
+      </span>
+      <a class="copyright" href="https://github.com/ArkBriz" target="_blank">
+        <span class="visually-hidden">Link to Arkady Briz Githab profile</span>
+      </a>
+      <a class="logo" href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="assets/svg/rs-school-logo.svg" width="90" height="30" alt="RS School logo.">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
