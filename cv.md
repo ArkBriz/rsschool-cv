@@ -70,7 +70,7 @@ function travelDistance(avgSpeed, travelTime) {
 
 * Secondary education
 * Higher engineering education in Radio Engineering
-* Self-directed Frontend Developer Course at HTML Academy (in progress, almost finished)
+* Self-directed Frontend Developer Course at HTML Academy
 
 
 ### English
