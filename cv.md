@@ -22,3 +22,20 @@ Three years as a mentor gave me solid experience with remote work and collaborat
 My motivation also comes from a few personal goals: working remotely and being location-independent, keeping my mind sharp, connecting with interesting and open-minded people, finally mastering English — and, well, let’s be honest, the salaries in tech aren’t bad either.
 
 I enjoy learning new things and figuring out how the world works.
+
+### About my skills:
+
+* HTML
+* CSS (SCSS, BEM)
+* JS 
+   - Basics (Variables, types, conditions, loops, objects, arrays, functions)
+   - DOM API, Events
+   - AJAX (fetch)
+   - Basic Async JavaScript (Promise, async/await)
+* React (Markup and styling of React components with JSX and styled-components)
+* Gulp, NPM, Chrome DevTools
+* CMS (Wordpress)
+* Git
+* Figma
+
+**********************************************
